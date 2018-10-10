@@ -1,0 +1,20 @@
+/**
+ * Created by Administrator on 2018/7/16.
+ */
+$(document).ready(function(){
+    $(".btm1").click(function(){
+        $(".emp-btm1").toggle();
+    });
+    $(".btm2").click(function(){
+        $(".emp-btm2").toggle();
+    });
+    $(".btm3").click(function(){
+        $(".emp-btm3").toggle();
+    });
+    $(".btm4").click(function(){
+        $(".emp-btm4").toggle();
+    });
+    $(".btm5").click(function(){
+        $(".emp-btm5").toggle();
+    });
+});

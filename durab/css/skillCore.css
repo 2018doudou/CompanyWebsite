@@ -1,0 +1,332 @@
+/*************头部****************/
+#head{
+    /*width: 100%;*/
+    background-color: #fff;
+}
+#head nav{
+    position:relative;
+    top: 0;
+    left: 50%;
+    margin-left: -640px;
+    font-family:PingFang-SC-Regular;
+}
+#head .skill-banner{
+    height: 358px;
+    width: 100%;
+    background: url("../img/RandDStrength_0003_1_1.png") no-repeat center center;
+    -webkit-background-size: cover;
+    background-size:cover;
+}
+#head .skill-nav2{
+    width: 100%;
+    height: 174px;
+    background:rgba(244,244,244,1);
+}
+#head .skill-nav2 .skill-list{
+    width: 1280px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+#head .skill-nav2 .skill-list>li{
+    height:33px;
+    border: 1px solid transparent;
+    box-sizing: border-box;
+    background:rgba(255,255,255,1);
+    font-size:14px;
+    font-family:PingFang-SC-Regular;
+    color:rgba(39,39,39,1);
+    line-height:30px;
+    border-radius:17px;
+    padding:0 17px;
+    margin-top: 71px;
+    margin-right:60px;
+}
+#head .skill-nav2 .skill-list>li:first-child{
+    /*margin-left: 60px;*/
+    background-color: #00029A;
+    color: #fff;
+}
+#head .skill-nav2 .skill-list>li:last-child{
+    margin-right:0;
+}
+/*************头部****************/
+
+
+/************技术原理****************/
+#theory{
+    width: 1180px;
+    margin: 0 auto;
+    margin-bottom: 90px;
+}
+#theory .skill-title{
+    text-align: center;
+    margin:0 auto;
+    margin-top: 94px;
+}
+#theory .skill-title .title-top{
+    margin:0 auto;
+    width:185px;
+    height:56px;
+    color:rgba(1,1,1,1);
+    line-height:39px;
+}
+#theory .skill-title .title-top>h3{
+    font-size:24px;
+    font-family:PingFang-SC-Bold;
+
+}
+#theory .skill-title .title-top>p{
+    font-size: 18px;
+    font-family:PingFang-SC-Medium;
+}
+#theory .skill-title>p{
+    width:1076px;
+    height:15px;
+    font-size:14px;
+    font-family:PingFang-SC-Medium;
+    color:rgba(1,1,1,1);
+    line-height:24px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+#theory .skill-img{
+    height: 152px;
+    width: 100%;
+    background: url("../img/CoreTechnology-_0004_2.png") no-repeat center center;
+    -webkit-background-size: cover;
+    background-size:cover;
+    margin-top: 58px;
+}
+#theory .skill-text{
+    width:1174px;
+    height:79px;
+    color:rgba(1,1,1,1);
+    line-height:16px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 61px;
+    padding-bottom: 61px;
+    border-bottom: 1px solid #ECECEC;
+}
+#theory .skill-text>p:first-child{
+    font-size:18px;
+    line-height: 18px;
+    font-family:PingFang-SC-Bold;
+    margin-bottom: 25px;
+}
+#theory .skill-text>p:last-child{
+    font-family:PingFang-SC-Medium;
+    line-height: 18px;
+    font-size: 14px;
+    padding-bottom: 61px;
+}
+#theory .skill-info{
+    width: 100%;
+    margin-top: 56px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+#theory .skill-info>img{
+    width: 429px;
+    height: 393px;
+}
+#theory .skill-info>ul{
+    width: 617px;
+    height: 380px;
+    border-left: 1px solid #00029A;
+    padding-left: 23px;
+}
+#theory .skill-info>ul>li{
+    width:594px;
+    /*height:86px;*/
+    font-size:14px;
+    color:rgba(1,1,1,1);
+    line-height:24px;
+}
+#theory .skill-info>ul li span{
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+    background-color: #00029A;
+    border-radius: 50%;
+    position: relative;
+    left: -30px;
+}
+#theory .skill-info>ul li>p:nth-child(1){
+    font-family:PingFang-SC-Medium;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+#theory .skill-info>ul li>p:last-child{
+    font-family:PingFang-SC-Light;
+    margin-bottom: 40px;
+    margin-left: 12px;
+}
+/************技术原理****************/
+
+/************机理****************/
+#mechanism{
+    width: 100%;
+    height: 779px;
+    background-color: #00029A;
+    border-top: 1px solid transparent;
+    box-sizing: border-box;
+}
+#mechanism .skill-text{
+    width:1033px;
+    height:79px;
+    color: white;
+    line-height:16px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 113px;
+    padding-bottom: 61px;
+}
+#mechanism .skill-text>p:first-child{
+    font-size:18px;
+    line-height: 18px;
+    font-family:PingFang-SC-Bold;
+    margin-bottom: 25px;
+}
+#mechanism .skill-text>p:last-child{
+    font-family:PingFang-SC-Medium;
+    line-height: 18px;
+    font-size: 14px;
+    padding-bottom: 61px;
+}
+#mechanism>ul{
+    display: flex;
+    justify-content: center;
+}
+#mechanism>ul>li{
+    width: 272px;
+    margin-right: 44px;
+    color: #fff;
+}
+#mechanism>ul>li:last-child{
+    margin-right: 0;
+}
+#mechanism>ul>li>img{
+    width: 272px;
+    height: 284px;
+}
+#mechanism>ul>li>p{
+    /*width:109px;*/
+    height:14px;
+    font-size:14px;
+    font-family:PingFang-SC-Regular;
+    text-align: center;
+    margin-top: 27px;
+}
+/************机理****************/
+
+/************图片****************/
+#images{
+    width: 100%;
+    
+}
+#images .img1{
+    margin: 0 auto;
+    width: 1180px;
+    height: 318px;
+    display: flex;
+    justify-content: center;
+    margin-top: 111px;
+    border-bottom: 1px solid #ECECEC;
+    padding-bottom: 60px;
+}
+#images .img1> .img-first{
+    width: 381px;
+    /*height: 361px;*/
+}
+#images .img1> .img-second:nth-of-type(1){
+    width: 276px;
+}
+#images .img1> .img-second:nth-of-type(1)>img{
+    width: 276px;
+}
+#images .img1> .img-second:nth-of-type(1)>img:nth-child(1){
+    height: 160px;
+    /*width: 276px;*/
+}
+#images .img1> .img-second:nth-of-type(1)>img:nth-child(2){
+    /*width: 276px;*/
+    height: 155px;
+}
+#images .img1> .img-third{
+    width: 513px;
+    height: 318px;
+    background-color: #00029A;
+}
+#images .img1> .img-third>p{
+    width: 339px;
+    height: 62px;
+    margin: 128px auto;
+    font-size:14px;
+    font-family:PingFang-SC-Regular;
+    color:rgba(255,255,255,1);
+    line-height:24px;
+}
+#images>p{
+    width:920px;
+    height:17px;
+    margin: 42px auto;
+    font-size:16px;
+    font-family:PingFang-SC-Bold;
+    color:rgba(1,1,1,1);
+    line-height:24px;
+}
+#images> .img2{
+    display: flex;
+    justify-content: center;
+}
+#images> .img2>li>img{
+    width: 281px;
+    height: 196px;
+    margin-right: 14px;
+}
+#images> .img2>li>img:last-child{
+    margin-right: 0;
+}
+#images> .img2>li>p{
+    font-size:14px;
+    font-family:PingFang-SC-Bold;
+    color:rgba(14,5,10,1);
+    line-height:24px;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 114px;
+}
+/************图片****************/
+
+
+/*************底部****************/
+#foot{
+    position: relative;
+    top:0;
+    bottom: 0;
+}
+#foot .foot-top .foot-top-content{
+    margin: 0 auto;
+    position: relative;
+    border: 1px solid transparent;
+}
+#foot .foot-bottom .foot-bottom-content .btm{
+    position: absolute;
+    left: 0;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+
+}
+#foot .foot-bottom .foot-bottom-content .btm .bottom-left{
+    margin-right: 200px;
+}
+#foot .foot-bottom .foot-bottom-content .last{
+    position: absolute;
+    bottom: 70px;
+    right: 6%;
+}
+/*************底部****************/

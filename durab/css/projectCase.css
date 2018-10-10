@@ -1,0 +1,207 @@
+/*************头部****************/
+#head{
+    /*width: 100%;*/
+    background-color: #fff;
+}
+#head nav{
+    position:relative;
+    top: 0;
+    left: 50%;
+    margin-left: -640px;
+    font-family:PingFang-SC-Regular;
+}
+#head .project-banner{
+    width: 100%;
+    height: 358px;
+    display: flex;
+}
+#head .project-banner .pro-banner-left{
+    flex: 1.382;
+    background:url("../img/project-nav.jpg") no-repeat center center;
+    -webkit-background-size:cover;
+    background-size:cover;
+}
+#head .project-banner .pro-banner-right{
+    flex: 1;
+    background:url("../img/project-nav2.jpg") no-repeat center center;
+    -webkit-background-size:cover;
+    background-size:cover;
+}
+#head .project-banner .pro-banner-right .pro-nav-content{
+    height: 180px;
+    width: 372px;
+    color: #fff;
+    margin-top: 104px;
+    margin-left: 113px;
+}
+#head .project-banner .pro-banner-right .pro-nav-content>h3{
+    display: flex;
+    justify-content: space-between;
+    width:308px;
+}
+#head .project-banner .pro-banner-right .pro-nav-content>h3>span:first-child{
+    height:24px;
+    font-size:24px;
+    font-family:PingFang-SC-Bold;
+    color:rgba(255,255,255,1);
+    line-height:30px;
+}
+#head .project-banner .pro-banner-right .pro-nav-content>h3>span:last-child{
+    height:24px;
+    font-size:16px;
+    font-family:PingFang-SC-Regular;
+    font-weight: lighter;
+    color:rgba(255,255,255,1);
+    line-height:30px;
+}
+#head .project-banner .pro-banner-right .pro-nav-content> .pro-line{
+    width: 79px;
+    height: 5px;
+    background-color: #fff;
+    margin-top: 21px;
+    margin-bottom: 21px;
+}
+#head .project-banner .pro-banner-right .pro-nav-content>p:last-child{
+    width:372px;
+    height:101px;
+    font-size:14px;
+    font-family:PingFang-SC-Regular;
+    color:rgba(255,255,255,1);
+    line-height:29px;
+}
+#head .pro-nav2{
+    width: 100%;
+    height: 174px;
+    background:rgba(244,244,244,1);
+}
+#head .pro-nav2 .pro-list{
+    width: 1280px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+#head .pro-nav2 .pro-list>li{
+    height:33px;
+    border: 1px solid transparent;
+    box-sizing: border-box;
+    background:rgba(255,255,255,1);
+    font-size:14px;
+    font-family:PingFang-SC-Regular;
+    color:rgba(39,39,39,1);
+    line-height:30px;
+    border-radius:17px;
+    padding:0 17px;
+    margin-top: 71px;
+}
+#head .pro-nav2 .pro-list>li:first-child{
+    margin-left: 60px;
+    background-color: #00029A;
+    color: #fff;
+}
+/*************头部****************/
+
+/*************工程案例****************/
+#engine{
+    position: relative;
+    width: 1280px;
+    margin: 0 auto;
+}
+#engine .engine-bottom{
+    clear: both;
+    width: 100%;
+    padding-top: 80px;
+}
+#engine .engine-bottom>li{
+    float: left;
+    margin-right: 34px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #C5C5C5;
+}
+#engine .engine-bottom>li:nth-child(3),
+#engine .engine-bottom>li:nth-child(6),
+#engine .engine-bottom>li:nth-child(9),
+#engine .engine-bottom>li:nth-child(12){
+    margin-right: 0;
+}
+#engine .engine-bottom>li>img{
+    width: 404px;
+    height: 241px;
+}
+#engine .engine-bottom>li>div{
+    width: 100%;
+    height: 43px;
+    margin: 20px;
+}
+#engine .engine-bottom>li>div>p:nth-child(1){
+    width: 100%;
+    font-size:18px;
+    font-family:PingFang-SC-Regular;
+    color:rgba(0,0,0,1);
+    line-height:30px;
+}
+#engine .engine-bottom>li>div>p:nth-child(2){
+    font-family:PingFang-SC-Regular;
+    color: #C5C5C5;
+    font-size:14px;
+    line-height: 30px;
+}
+#engine .engine-bottom>li> .right-arrow{
+    float: right;
+    position: relative;
+    bottom: 40px;
+    font-size:18px;
+    color: #C5C5C5;
+    margin-right: 15px;
+}
+/*************工程案例****************/
+
+/*************页码****************/
+#page{
+    width: 100%;
+    position: relative;
+    top: 1600px;
+}
+#page> .page-btn{
+    display: block;
+    position: relative;
+    width: 24px;
+    height: 24px;
+    border: none;
+    color: #fff;
+    left: -49%;
+    margin-bottom: -60px;
+    margin-top: -22px;
+    background-color: #00029A;
+    
+}
+/*************页码****************/
+
+/*************底部****************/
+#foot{
+    position: relative;
+    top:1750px;
+    bottom: 0;
+}
+#foot .foot-top .foot-top-content{
+    margin: 0 auto;
+    position: relative;
+    top: -1590px;
+    border: 1px solid transparent;
+}
+#foot .foot-bottom .foot-bottom-content .btm{
+    position: absolute;
+    left: 0;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    
+}
+#foot .foot-bottom .foot-bottom-content .btm .bottom-left{
+    margin-right: 200px;
+}
+#foot .foot-bottom .foot-bottom-content .last{
+    position: absolute;
+    bottom: 70px;
+    right: 6%;
+}
+/*************底部****************/
